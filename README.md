@@ -4,7 +4,7 @@ A 3D model sharing platform built with Next.js 15, TypeScript, and Tailwind CSS.
 
 ## Live Demo
 
-> _Add your deployment URL here (e.g. Vercel)_
+coming soon...
 
 ## Features
 
