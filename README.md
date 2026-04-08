@@ -4,7 +4,7 @@ A 3D model sharing platform built with Next.js 15, TypeScript, and Tailwind CSS.
 
 ## Live Demo
 
-Coming soon...
+https://printforge80.netlify.app/
 
 ## Features
 
