@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PrintForge
+
+A 3D model sharing platform built with Next.js 15, TypeScript, and Tailwind CSS. Browse and discover community-submitted 3D printing files.
+
+## Live Demo
+
+> _Add your deployment URL here (e.g. Vercel)_
+
+## Features
+
+- Browse a gallery of 3D models with category tags and likes
+- Individual model detail pages with dynamic routing
+- Responsive layout with mobile-friendly navigation
+- Optimized Google Fonts (Albert Sans + Montserrat Alternates)
+- Fully typed with TypeScript
+
+## Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** React Icons
+
+## Project Structure
+
+```
+app/
+├── layout.tsx              # Root layout (Navbar + fonts)
+├── page.tsx                # Home page
+├── about/
+│   └── page.tsx            # About page
+├── 3d-models/
+│   ├── page.tsx            # Models listing page
+│   └── [id]/
+│       └── page.tsx        # Dynamic model detail page
+├── components/
+│   ├── Navbar.tsx
+│   ├── ModelCard.tsx
+│   └── Pill.tsx
+├── lib/
+│   └── models.ts           # Data fetching functions
+├── data/
+│   └── models.json         # Mock model data
+└── types/
+    └── index.ts            # Shared TypeScript types
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/printforge.git
+cd printforge
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm start` | Start production server |
+| `npm run lint` | Run ESLint |
 
-## Learn More
+## Key Concepts Used
 
-To learn more about Next.js, take a look at the following resources:
+| Concept | Where |
+|---|---|
+| File-based routing | `app/` folder structure |
+| Nested routes | `app/3d-models/[id]/` |
+| Root layout | `app/layout.tsx` |
+| Server components | `ModelsPage`, `ModelDetailPage` |
+| Dynamic routes | `app/3d-models/[id]/page.tsx` |
+| Google Fonts optimization | `layout.tsx` via `next/font/google` |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is ready to deploy on [Vercel](https://vercel.com):
 
-## Deploy on Vercel
+```bash
+npm install -g vercel
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Cary Zhu — [caryzhu.com](https://caryzhu.com) · [GitHub](https://github.com/CodeCary80)
