@@ -21,30 +21,6 @@ https://printforge80.netlify.app/
 - **Styling:** Tailwind CSS
 - **Icons:** React Icons
 
-## Project Structure
-
-```
-app/
-├── layout.tsx              # Root layout (Navbar + fonts)
-├── page.tsx                # Home page
-├── about/
-│   └── page.tsx            # About page
-├── 3d-models/
-│   ├── page.tsx            # Models listing page
-│   └── [id]/
-│       └── page.tsx        # Dynamic model detail page
-├── components/
-│   ├── Navbar.tsx
-│   ├── ModelCard.tsx
-│   └── Pill.tsx
-├── lib/
-│   └── models.ts           # Data fetching functions
-├── data/
-│   └── models.json         # Mock model data
-└── types/
-    └── index.ts            # Shared TypeScript types
-```
-
 ## Getting Started
 
 ### Prerequisites
