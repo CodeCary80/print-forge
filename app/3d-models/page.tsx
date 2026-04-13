@@ -20,7 +20,7 @@ export default async function Page({ searchParams }: ModelsPageProps) {
             <Form action="/3d-models" className="w-full px-5 md:px-0 md:max-w-xl">
                 <input
                     type="text"
-                    name="query"
+                    name="q"
                     placeholder="E.g. dragon"
                     autoComplete="off"
                     defaultValue={query}
