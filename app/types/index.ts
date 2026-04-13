@@ -57,7 +57,7 @@ export type ModelsGridProps = {
     models: Model[]
 }
 
-type PillProps = {
+export type PillProps = {
   children: React.ReactNode;
   className?: string;
   role?: string;

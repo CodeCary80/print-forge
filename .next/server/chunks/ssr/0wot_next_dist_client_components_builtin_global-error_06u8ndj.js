@@ -1,0 +1,3 @@
+module.exports=[88284,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(4486);a.n(d("[project]/Desktop/pra/pra3/react-project/print-forge/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},38124,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(4486);a.n(d("[project]/Desktop/pra/pra3/react-project/print-forge/node_modules/next/dist/client/components/builtin/global-error.js"))},70053,a=>{"use strict";a.i(88284);var b=a.i(38124);a.n(b)},62862,a=>{a.n(a.i(70053))}];
+
+//# sourceMappingURL=0wot_next_dist_client_components_builtin_global-error_06u8ndj.js.map

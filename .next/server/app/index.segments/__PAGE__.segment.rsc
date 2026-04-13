@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[12658,["/_next/static/chunks/0v.f8w6th7p7..js","/_next/static/chunks/11k07ft4fan3d.js"],""]
+3:I[77713,["/_next/static/chunks/0v.f8w6th7p7..js","/_next/static/chunks/11k07ft4fan3d.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+:HL["/_next/static/media/hero-image.0vb.dl0bit5qj.png","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"children":["$","section",null,{"className":"flex flex-col-reverse items-center justify-between gap-8 px-6 py-12 mx-auto md:flex-row max-w-7xl","children":[["$","div",null,{"className":"flex-1 space-y-6","children":[["$","p",null,{"className":"hidden text-sm text-gray-600 uppercase md:block","children":"Your go-to platform for 3D printing files"}],["$","h1",null,{"className":"text-4xl font-bold md:text-5xl","children":"Discover what's possible with 3D Printing"}],["$","p",null,{"className":"text-lg text-gray-600","children":"Join our community of creators and explore a vast library of user-submitted models."}],["$","div",null,{"className":"flex gap-4","children":["$","$L2",null,{"href":"/3d-models","className":"px-6 py-3 text-black transition duration-100 bg-white border-2 border-black hover:bg-black hover:text-white","children":"Browse Models"}]}]]}],["$","img",null,{"src":"/_next/static/media/hero-image.0vb.dl0bit5qj.png","className":"w-[350px] h-auto rounded-lg","alt":"Hero Image"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8NUsOrIfs83D9p3oXH6C9"}
+5:null

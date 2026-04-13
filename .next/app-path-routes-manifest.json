@@ -1,0 +1,9 @@
+{
+  "/3d-models/[id]/page": "/3d-models/[id]",
+  "/3d-models/categories/[categoryName]/page": "/3d-models/categories/[categoryName]",
+  "/3d-models/page": "/3d-models",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/page": "/"
+}
